@@ -119,7 +119,7 @@ An AI inventory is an early step in most governance frameworks. The EU AI Act ex
 
 ## The rest of the stack
 
-- Lookups use the same register that drives [AI data leakage prevention](https://www.aitoolsblocklist.com/prevent-data-leakage-ai.php) policies.
+- Lookups use the same register that drives [AI data leakage prevention](https://www.aitoolsblocklist.com) policies.
 - Hosts that turn out not to be AI can be labelled with [check domain categorization](https://www.urlcategorizationdatabase.com/check-domain.php) lookups.
 - If you run AI agents yourself, put an [AI agent allow list as a guardrail](https://www.aiagentallowlist.com/agent-guardrails.php) in front of their browsing tool.
 
