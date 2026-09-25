@@ -2,7 +2,7 @@
 
 A Go library, and a pattern for a small command-line tool, that reads a network log and reports the AI applications in it. Point it at a DNS query log, a proxy access log or a firewall CSV. It pulls out the hostnames, checks each one, and gives you back the ones that belong to AI products, with category and data-use terms attached.
 
-It is the Go counterpart of the hosted service that lets you [scan exports for unsanctioned AI apps](https://www.shadowaitools.com) through a browser. Use this module when you want the same result inside your own tooling, on a schedule, or on logs that must not leave your servers.
+It is the Go counterpart of the hosted [shadow AI discovery tools](https://www.shadowaitools.com/how-it-works.php), which work in a browser. Use this module when you want the same result inside your own tooling, on a schedule, or on logs that must not leave your servers.
 
 ```bash
 go get github.com/explainableaixai/shadowaitools-go
@@ -119,9 +119,9 @@ An AI inventory is an early step in most governance frameworks. The EU AI Act ex
 
 ## The rest of the stack
 
-- Lookups are answered from [AI vendors with their data-use terms on record](https://www.aitoolsblocklist.com), the same register used for blocking.
-- Hosts that turn out not to be AI can be labelled with [offline URL category lookups](https://www.urlcategorizationdatabase.com).
-- If you run AI agents yourself, put [guardrails for what AI agents may open](https://www.aiagentallowlist.com) in front of their browsing tool.
+- Lookups use the same register that drives [AI data leakage prevention](https://www.aitoolsblocklist.com/prevent-data-leakage-ai.php) policies.
+- Hosts that turn out not to be AI can be labelled with [check domain categorization](https://www.urlcategorizationdatabase.com/check-domain.php) lookups.
+- If you run AI agents yourself, put an [AI agent allow list as a guardrail](https://www.aiagentallowlist.com/agent-guardrails.php) in front of their browsing tool.
 
 Prefer a scripting language? [shadowaitools for Python](https://pypi.org/project/shadowaitools/) fits notebooks, [the npm build](https://www.npmjs.com/package/shadowaitools) fits Node tooling, and [the Dart package](https://pub.dev/packages/shadowaitools) runs on desktop and servers.
 
